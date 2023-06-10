@@ -4,7 +4,7 @@ import pandas
 
 #enter a file path according your os
 # store the data of PMPL asia 2022 in data variable
-data = pandas.read_csv("/home/anonymous/DATA/IDE files/github/1/in.csv",header=None)
+data = pandas.read_csv("in.csv",header=None)
 
 # store team name in x variable
 x=data[0]
