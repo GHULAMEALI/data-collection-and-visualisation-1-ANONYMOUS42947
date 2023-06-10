@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Load .CSV file",
+      "setup": "import pandas as pd",
+      "run": "csv_file_path = 'path_to_your_csv_file.csv'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    }
+  ]
+}
